@@ -1,4 +1,4 @@
-function updateTime(){
+function updateTime() {
   const timeElement = document.getElementById('time');
   const now = new Date();
   const hours = String(now.getHours()).padStart(2, '0');
